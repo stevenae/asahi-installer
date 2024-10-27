@@ -747,6 +747,8 @@ class InstallerMain:
         p_question("Enter the new size for your existing partition:")
         p_message( "  You can enter a size such as '1GB', a fraction such as '50%',")
         p_message( "  or the word 'min' for the smallest allowable size.")
+        p_message( "  A GUI installation REQUIRES 13.5GB (6GB without GUI).")
+        p_message( "  We recommend leaving more space for your own uses.")
         print()
         p_message( "  Examples:")
         p_message( "  30%  - 30% to macOS, 70% to the new OS")
